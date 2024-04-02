@@ -5,7 +5,7 @@ export const Person = ({ person }) => {
   return (
     <div className="Person">
       <div className="Person__name">My name is {name}</div>
-      {age && <div className="Person__age">I am {age} </div>}
+      {age && <div className="Person__age">I am {age}</div>}
       <div className="Person__partner">
         {!isMarried
           ? 'I am not married'
